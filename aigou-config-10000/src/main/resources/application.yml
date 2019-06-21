@@ -1,0 +1,18 @@
+server:
+  port: 9527
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka  #  指向控制中心
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yangluojia123/aigou_parent.git  #git文件地址
+          username: yangluojia123
+          password: yds687192

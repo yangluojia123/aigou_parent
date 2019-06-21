@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:9527 #配置服务器
+      label: master #分支
+      name: aigou-config-application #github上面配置文件的名称
+      profile: test #环境
