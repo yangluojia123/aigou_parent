@@ -18,7 +18,7 @@ server:
   port: 8001
   
 ---  
-  spring:
+spring:
   profiles: test
   application:
     name: AIGOU-PLAT
