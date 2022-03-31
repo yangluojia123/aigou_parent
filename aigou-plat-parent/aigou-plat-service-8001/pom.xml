@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>RELEASE</version>
+            <version>2.5.12</version>
         </dependency>
 
         <!--导入swagger  jar包   【自动生成接口文档】-->
